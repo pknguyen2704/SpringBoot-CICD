@@ -5,7 +5,7 @@ on:
       - main
 
 jobs:
-  build-deploy:
+  build:
     name: build and deploy spring-api
     runs-on: ubuntu-20.04
     steps:
