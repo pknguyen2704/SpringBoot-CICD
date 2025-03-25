@@ -1,8 +1,9 @@
 name: SPRINGBOOT_CICD
+
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
